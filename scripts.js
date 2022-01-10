@@ -4,9 +4,10 @@ console.log(dupa)
 
 function handleSubmit() {
     console.log("witajcie u tomy klima")
+    alert("siema Tomo")
 }
 
-// GOOGLE MAPS
+/*************   GOOGLE MAPS  ***********/
 // Initialize and add the map
 function initMap() {
     const gliwiceLocation = { lat: 50.307611, lng: 18.663559 }
