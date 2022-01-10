@@ -118,31 +118,33 @@
                         <div id="map" class="w-100 h-100"></div>
                     </div>
                     <!-- ADRES -->
-                    <div class="col-xl-4 col-md-6 bg-secondary adress">
-                        <p>CONTACT</p>
-                        <strong
+                    <div
+                        class="col-xl-4 col-md-6 bg-dark address text-justify text-light"
+                    >
+                        <p class="fs-2 mt-3">CONTACT</p>
+                        <strong class="mb-2"
                             >Lorem ipsum, dolor sit amet consectetur adipisicing
                             elit.
                         </strong>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">ul. Compton </li>
-                            <li class="list-group-item"
-                                >Long Island, New York</li
-                            >
-                            <li class="list-group-item"
-                                >toma-klim-nwa@gmail.com</li
-                            >
-                            <li class="list-group-item">+48 506 787 429</li>
+
+                        <ul class="p-0 mt-2">
+                            <li>ul. Compton </li>
+                            <li>Long Island, New York</li>
+                            <li>toma-klim-nwa@gmail.com</li>
+                            <li>+48 506 787 429</li>
                         </ul>
-                        <hr />
-                        <!-- SOCIAL ICONS -->
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-instagram"></a>
-                        <hr />
+
+                        <div class="p-5">
+                            <hr />
+                            <!-- SOCIAL ICONS -->
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <hr />
+                        </div>
                     </div>
                     <!-- FORMULARZ -->
-                    <div class="col-xl-4 col-md-6 bg-info form">
-                        <p>have a question</p>
+                    <div class="col-xl-4 col-md-6 bg-secondary text-white form">
+                        <p class="fs-2 mt-3">We look forward</p>
                         <form action="javascript:handleSubmit()">
                             <div class="mb-3 mt-3">
                                 <label for="email" class="form-label"
@@ -188,18 +190,25 @@
                                     class="form-control"
                                     id="message"
                                     rows="3"
+                                    placeholder="message text"
                                 ></textarea>
                             </div>
                             <!-- SUBMIT -->
-                            <button type="submit" class="btn btn-primary"
-                                >Submit</button
-                            >
+                            <div class="text-center">
+                                <button
+                                    type="submit"
+                                    class="btn btn-primary mb-3"
+                                >
+                                    Submit
+                                </button>
+                            </div>
                         </form>
                     </div>
+                    <div class="text-center bg-dark w-100 p-4">
+                        <!-- TO THE TOP BUTTON -->
+                        <a href="#home" class="btn btn-primary">to the top</a>
+                    </div>
                 </div>
-                <hr />
-                <!-- TO THE TOP BUTTON -->
-                <a href="#home" class="btn btn-primary">to the top</a>
             </footer>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

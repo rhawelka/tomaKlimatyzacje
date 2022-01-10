@@ -35,7 +35,16 @@ footer .map {
     min-height: 50vh;
 }
 
-footer .adress .fa {
+footer .address {
+    text-align: center;
+}
+
+footer .address ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+footer .address .fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
@@ -44,6 +53,10 @@ footer .adress .fa {
     color: honeydew;
 }
 
-footer .adress .fa:hover {
+footer .address .fa:hover {
     opacity: 0.7;
+}
+
+footer .form p {
+    text-align: center;
 }
