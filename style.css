@@ -1,28 +1,48 @@
 header {
-  background-image: url("./assets/images/pexels-photo-2950049.jpeg");
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-  width: 100%;
+    background-image: url('./assets/images/pexels-photo-2950049.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    width: 100%;
 }
 
 /* REFACTOR THIS */
 
 header p {
-  color: white;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.about {
+    margin-top: 5vh;
 }
 
 .about-button {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+footer .map {
+}
+
+footer .adress .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: honeydew;
+}
+
+footer .adress .fa:hover {
+    opacity: 0.7;
 }
