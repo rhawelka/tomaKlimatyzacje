@@ -56,3 +56,12 @@ footer .address .fa:hover {
 footer .form p {
     text-align: center;
 }
+
+.dupa {
+    background-image: url('./assets/images/backgorund_colors_1.jpg');
+    background-size: cover;
+}
+
+.form i {
+    font-size: 10vh;
+}
