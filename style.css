@@ -1,8 +1,8 @@
 header {
-    background-image: url('./assets/images/pexels-photo-2950049.jpeg');
+    background-image: url('./assets/images/background_with_conditioner.jpg');
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 50vh;
     position: relative;
     width: 100%;
 }
