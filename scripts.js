@@ -1,8 +1,3 @@
-function handleSubmit() {
-    console.log("witajcie u tomy klima")
-    alert("siema Tomo")
-}
-
 /*************   GOOGLE MAPS  ***********/
 // Initialize and add the map
 function initMap() {
