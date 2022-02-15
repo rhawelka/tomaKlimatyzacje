@@ -24,14 +24,24 @@
                 <div class="container-fluid">
                     <!-- LOGO -->
 
-                    <a class="navbar-brand order-0" href="#"
-                        >TOMA<img
+                    <a class="navbar-brand order-0" href="#">
+                        <span>TOMA</span>
+                        <img
                             src="./assets/images/klim_logo___kopia-removebg-preview_mod-removebg-preview.png"
                             alt="logo"
                             width="50"
                             height="50"
-                        />KLIM</a
+                        />
+                        <span>KLIM</span>
+                    </a>
+
+                    <a
+                        class="nav-link nav-phone d-none d-sm-none d-lg-inline"
+                        href="tel:+48 506 787 429"
                     >
+                        +48 506 787 429
+                    </a>
+
                     <button
                         class="navbar-toggler"
                         type="button"
@@ -40,45 +50,44 @@
                         aria-controls="navbarNavAltMarkup"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
+                        data-target="#navbarNavAltMarkup"
                     >
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <!-- <div class="order-1"> -->
-
-                    <a
-                        class="nav-link nav-phone"
-                        style="margin-left: 33%"
-                        href="tel:+48 506 787 429"
-                        >+48 506 787 429</a
-                    >
-
                     <!-- NAV LINKS -->
                     <div
-                        class="collapse navbar-collapse"
+                        class="collapse navbar-collapse justify-content-end"
                         id="navbarNavAltMarkup"
                     >
-                        <div class="navbar-nav order-2">
-                            <a
-                                class="nav-link active"
-                                style="margin-left: auto"
-                                aria-current="page"
-                                href="#about"
-                                >O NAS</a
-                            >
-                            <a
-                                class="nav-link"
-                                style="margin-left: auto"
-                                href="#offer"
-                                >OFERTA</a
-                            >
-                            <a
-                                class="nav-link"
-                                style="margin-left: auto"
-                                href="#contact"
-                                >KONTAKT</a
-                            >
-                        </div>
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#about"
+                                >
+                                    O NAS
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#offer"> OFERTA </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">
+                                    KONTAKT
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link nav-phone d-lg-none"
+                                    href="tel:+48 506 787 429"
+                                >
+                                    +48 506 787 429
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </nav>
@@ -87,8 +96,8 @@
             </header>
             <main class="container-fluid text-white text-center">
                 <!-- O NAS -->
-                <section class="row about">
-                    <h2 id="about">O NAS</h2>
+                <section id="about" class="row about p-5">
+                    <h2>O NAS</h2>
                     <p>
                         Polska firma zajmująca się kompleksową ofertą w zakresie
                         sprzedaży, instalacji, napraw i serwisowania
@@ -112,7 +121,7 @@
                     <img src="./assets/images/bg colors 2.jpg" alt="" />
                 </section>
                 <!-- OFERTA -->
-                <section id="offer" class="offer">
+                <section id="offer" class="offer p-5">
                     <img
                         src="./assets/images/oferta-removebg-preview.png"
                         alt="offer img"
@@ -176,7 +185,7 @@
                     <!-- ADRES -->
                     <div
                         id="contact"
-                        class="col-xl-4 col-md-6 address text-justify text-light"
+                        class="col-xl-4 col-md-6 address text-justify text-light p-5"
                     >
                         <p class="fs-2 mt-3">CONTACT</p>
                         <strong class="mb-2"
@@ -200,7 +209,7 @@
                         <div class="p-5">
                             <hr />
                             <!-- SOCIAL ICONS -->
-                            <div class="dupa">
+                            <div class="social-icons">
                                 <a href="#" class="fa fa-facebook"></a>
                                 <a href="#" class="fa fa-instagram"></a>
                             </div>
