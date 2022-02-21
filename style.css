@@ -24,7 +24,7 @@ header {
 /* REFACTOR THIS */
 
 header p {
-    color: white;
+    color: black;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -43,6 +43,18 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+}
+
+.about p {
+    text-align: justify;
+    text-justify: inter-word;
+    text-indent: 1.5em;
+}
+
+.offer p {
+    text-align: justify;
+    text-justify: inter-word;
+    text-indent: 1.5em;
 }
 
 footer .map {
