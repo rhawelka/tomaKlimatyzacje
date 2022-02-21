@@ -34,7 +34,7 @@ header p {
 }
 
 main {
-    background-color: #020033;
+    background-color: #050422;
 }
 
 .about-button {
@@ -49,6 +49,7 @@ main {
     text-align: justify;
     text-justify: inter-word;
     text-indent: 1.5em;
+    overflow-wrap: break-word;
 }
 
 .offer p {
