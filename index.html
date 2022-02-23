@@ -180,26 +180,87 @@
                         do kontaktu zarówno telefonicznego, jak i mailowego.
                     </p>
                 </section>
+                <!-- SLIDER -->
                 <section id="slider" class="slider p-2">
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
                         <div class="carousel-inner" align="center">
                           <div class="carousel-item active">
-                            <img src="/assets/images/slider/1.jpg" class="d-block carousel-image" alt="TODO">
+                            <img src="./assets/images/slider/1.jpg" class="d-block carousel-image" data-bs-toggle="modal" data-bs-target="#exampleModal1" alt="TODO">
+                            <!-- MODAL -->
+                            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <img src="./assets/images/slider/1.jpg" class="d-block w-100" alt="TODO">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                          <div class="carousel-item">
+                            <img src="./assets/images/slider/2.jpg" class="d-block carousel-image" data-bs-toggle="modal" data-bs-target="#exampleModal2" alt="TODO">
+                            <!-- MODAL -->
+                            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <img src="./assets/images/slider/2.jpg" class="d-block w-100" alt="TODO">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                           </div>
                           <div class="carousel-item">
-                            <img src="/assets/images/slider/2.jpg" class="d-block carousel-image" alt="TODO">
+                            <img src="./assets/images/slider/3.jpg" class="d-block carousel-image" data-bs-toggle="modal" data-bs-target="#exampleModal3" alt="TODO">
+                            <!-- MODAL -->
+                            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <img src="./assets/images/slider/3.jpg" class="d-block w-100" alt="TODO">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                           </div>
                           <div class="carousel-item">
-                            <img src="/assets/images/slider/3.jpg" class="d-block carousel-image" alt="TODO">
+                            <img src="./assets/images/slider/4.jpg" class="d-block carousel-image" data-bs-toggle="modal" data-bs-target="#exampleModal4" alt="TODO">
+                            <!-- MODAL -->
+                            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <img src="./assets/images/slider/4.jpg" class="d-block w-100" alt="TODO">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                           </div>
                           <div class="carousel-item">
-                            <img src="/assets/images/slider/4.jpg" class="d-block carousel-image" alt="TODO">
+                            <img src="./assets/images/slider/5.jpg" class="d-block carousel-image" data-bs-toggle="modal" data-bs-target="#exampleModal5" alt="TODO">
+                            <!-- MODAL -->
+                            <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <img src="./assets/images/slider/5.jpg" class="d-block w-100" alt="TODO">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                           </div>
                           <div class="carousel-item">
-                            <img src="/assets/images/slider/5.jpg" class="d-block carousel-image" alt="TODO">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="/assets/images/slider/6.jpg" class="d-block carousel-image" alt="TODO">
+                            <img src="./assets/images/slider/6.jpg" class="d-block carousel-image" data-bs-toggle="modal" data-bs-target="#exampleModal6"  alt="TODO">
+                            <!-- MODAL -->
+                            <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <img src="./assets/images/slider/6.jpg" class="d-block w-100" alt="TODO">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -210,9 +271,8 @@
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
                           <span class="visually-hidden">Next</span>
                         </button>
-                      </div>
+                   </div>
                 </section>
-                
             </main>
             <!-- In footer - map, adress, email -->
             <footer class="container-fluid">
@@ -271,7 +331,7 @@
                                     type="email"
                                     class="form-control"
                                     id="email"
-                                    placeholder="Enter email"
+                                    placeholder="Email"
                                     name="email"
                                 />
                             </div>
@@ -283,7 +343,7 @@
                                     type="text"
                                     class="form-control"
                                     id="name"
-                                    placeholder="Enter your name"
+                                    placeholder="Imię"
                                     name="name"
                                 />
                             </div>
@@ -295,7 +355,7 @@
                                     type="tel"
                                     class="form-control"
                                     id="telephone"
-                                    placeholder="Enter phone"
+                                    placeholder="Numer telefonu"
                                     name="telephone"
                                 />
                             </div>
@@ -307,7 +367,7 @@
                                     class="form-control"
                                     id="message"
                                     rows="3"
-                                    placeholder="message text"
+                                    placeholder="Treść wiadomośći"
                                 ></textarea>
                             </div>
                             <!-- SUBMIT -->
@@ -337,8 +397,8 @@
                         </form>
                     </div>
                     <!-- TO THE TOP BUTTON -->
-                    <div class="text-center bg-black w-100 p-4">
-                        <a href="#home" class="btn btn-primary">to the top</a>
+                    <div class="text-center d-md-none bg-black w-100 p-4">
+                        <a href="#home" class="btn btn-black text-white border-white border-start-0 border-end-0">DO GÓRY</a>
                     </div>
                 </div>
             </footer>
