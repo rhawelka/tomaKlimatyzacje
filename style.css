@@ -2,12 +2,6 @@
     width: 100%;
 }
 
-@media only screen and (max-width: 992px) {
-    .logo {
-        width: 25%;
-    }
-}
-
 .nav-phone {
     color: #020033;
 }
@@ -95,4 +89,41 @@ footer .form p {
 
 .form i {
     font-size: 10vh;
+}
+
+/* IF TIME add to proper elements */
+html {
+    scroll-padding-top: 250px; /* height of sticky header */
+}
+
+.carousel-image {
+    width: 35%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .carousel-image {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .logo {
+        width: 25%;
+    }
+
+    .carousel-image {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .carousel-image {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel-image {
+        width: 75%;
+    }
 }
