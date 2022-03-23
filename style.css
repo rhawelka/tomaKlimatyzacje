@@ -7,7 +7,7 @@
 }
 
 header {
-    background-image: url('./assets/images/background_with_conditioner.jpg');
+    background-image: url('./assets/images/slide-1.jpg');
     background-position: center;
     background-size: cover;
     height: 50vh;
@@ -82,6 +82,11 @@ footer .form p {
     text-align: center;
 }
 
+.social-icons {
+    background-image: url('./assets/images/backgorund_colors_1.jpg');
+    background-size: cover;
+}
+
 .form i {
     font-size: 10vh;
 }
@@ -121,5 +126,15 @@ html {
 @media only screen and (max-width: 768px) {
     .carousel-image {
         width: 75%;
+    }
+
+    header img {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    header img {
+        width: 100%;
     }
 }
