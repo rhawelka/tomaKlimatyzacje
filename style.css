@@ -101,6 +101,15 @@ html {
 }
 
 /* MEDIA QUERIES */
+@media only screen and (max-width: 3000px) {
+    .carousel-image {
+        width: 75%;
+    }
+    .form {
+        width: 50%;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .carousel-image {
         width: 75%;
@@ -114,6 +123,9 @@ html {
 
     .carousel-image {
         width: 60%;
+    }
+    .form {
+        width: 100%;
     }
 }
 
